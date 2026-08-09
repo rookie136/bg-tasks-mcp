@@ -50,7 +50,7 @@ After:
 ### 1. Clone and install
 
 ```bash
-git clone https://github.com/99percentpeople/bg-tasks-mcp.git
+git clone https://github.com/rookie136/bg-tasks-mcp.git
 cd bg-tasks-mcp
 npm install
 ```
