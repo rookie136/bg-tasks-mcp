@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 /**
  * bg-tasks MCP Server — Background Task Manager v0.7.0
  *
