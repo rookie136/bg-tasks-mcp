@@ -49,24 +49,22 @@ After:
 
 ### npm (recommended)
 
+```json
+{"command": ["npx", "-y", "bg-tasks-mcp"]}
+```
+
+No install needed — `npx` downloads and runs on first use.
+
+### Manual install
+
 ```bash
 npm install -g bg-tasks-mcp
 ```
 
-Then configure opencode:
+Then configure:
 
 ```json
-{
-  "command": ["bg-tasks-mcp"]
-}
-```
-
-Or without installing:
-
-```json
-{
-  "command": ["npx", "bg-tasks-mcp"]
-}
+{"command": ["bg-tasks-mcp"]}
 ```
 
 ### Git clone
@@ -77,12 +75,10 @@ cd bg-tasks-mcp
 npm install
 ```
 
-Then point opencode to the local path:
+Then:
 
 ```json
-{
-  "command": ["node", "/path/to/bg-tasks-mcp/index.js"]
-}
+{"command": ["node", "/path/to/bg-tasks-mcp/index.js"]}
 ```
 
 ```md
