@@ -1,0 +1,40 @@
+{
+  "name": "bg-tasks-mcp",
+  "version": "0.7.0",
+  "description": "MCP server for background task management in AI coding agents. Start, monitor, and stop dev servers, builds, and tests from within opencode.",
+  "type": "module",
+  "main": "index.js",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/99percentpeople/bg-tasks-mcp.git"
+  },
+  "keywords": [
+    "opencode",
+    "mcp",
+    "background-tasks",
+    "dev-server",
+    "process-management",
+    "ai-agent",
+    "coding-agent"
+  ],
+  "files": [
+    "index.js",
+    "lib/",
+    "tools/",
+    "resources/",
+    "README.md",
+    "LICENSE",
+    "AGENTS.md"
+  ],
+  "dependencies": {
+    "@modelcontextprotocol/node": "^2.0.0",
+    "@modelcontextprotocol/server": "^2.0.0",
+    "zod": "^3.23.0"
+  },
+  "optionalDependencies": {
+    "@xterm/addon-serialize": "^0.14.0",
+    "@xterm/headless": "^6.0.0",
+    "node-pty": "^1.0.0"
+  }
+}

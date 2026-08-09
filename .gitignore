@@ -1,0 +1,9 @@
+node_modules/
+*.tmp
+*.log
+.log
+.log.*
+.port
+.bg-shared/
+opencode.json
+openspec/
