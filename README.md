@@ -47,7 +47,29 @@ After:
 
 ## Installation
 
-### 1. Clone and install
+### npm (recommended)
+
+```bash
+npm install -g bg-tasks-mcp
+```
+
+Then configure opencode:
+
+```json
+{
+  "command": ["bg-tasks-mcp"]
+}
+```
+
+Or without installing:
+
+```json
+{
+  "command": ["npx", "bg-tasks-mcp"]
+}
+```
+
+### Git clone
 
 ```bash
 git clone https://github.com/rookie136/bg-tasks-mcp.git
@@ -55,23 +77,13 @@ cd bg-tasks-mcp
 npm install
 ```
 
-### 2. Configure opencode
-
-Add to `~/.config/opencode/opencode.json`:
+Then point opencode to the local path:
 
 ```json
 {
-  "mcp": {
-    "bg-tasks": {
-      "type": "local",
-      "command": ["node", "/path/to/bg-tasks-mcp/index.js"],
-      "enabled": true
-    }
-  }
+  "command": ["node", "/path/to/bg-tasks-mcp/index.js"]
 }
 ```
-
-### 3. Configure AGENTS.md (optional, recommended)
 
 ```md
 When you need to start, monitor, or stop background processes (dev servers, builds, tests),

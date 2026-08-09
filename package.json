@@ -4,6 +4,9 @@
   "description": "MCP server for background task management in AI coding agents. Start, monitor, and stop dev servers, builds, and tests from within opencode.",
   "type": "module",
   "main": "index.js",
+  "bin": {
+    "bg-tasks-mcp": "index.js"
+  },
   "license": "MIT",
   "repository": {
     "type": "git",
